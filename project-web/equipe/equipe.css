@@ -1,0 +1,167 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+
+
+
+.menu-bar {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,28%);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+
+    
+}
+.menu-bar>ul {
+    list-style: none;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.menu-bar ul {
+    margin-left: 0%;
+}
+
+.menu-bar img {
+margin-left: 20px;
+    
+    height: 100px;
+
+}
+.menu-item:hover , .sub-content a:hover {
+color: #999999;
+
+}
+.menu-item{
+    text-transform: uppercase ;
+
+}
+.sous-soso{
+    position: relative;
+}
+.sub-content {
+    text-transform: uppercase ;
+    position: absolute;
+
+    background-color: #eee;
+  display: none;
+width: 130px;
+text-align: center;
+left: -5px;
+top: 20px;
+}
+.sous-soso:hover .sub-content{
+    display: block;
+}
+.sub-content a {
+    color: #141414;
+    text-decoration: none;
+
+}
+
+.sous-soso li{
+        padding: 2px;
+}
+
+.sub-drop ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+
+
+
+.menu-item {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+h1
+{
+	padding:10px 15px 10px 16px;
+	color:#fff;
+	border-bottom-style: solid; 
+}
+.container{
+    margin-right: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,28%);
+}
+ 
+.page {
+	
+	
+	padding: 30px;
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+.container h1{
+    margin-bottom: 10px;
+	color: #0056a7;
+}
+.container p{
+    line-height: 1.4;
+}
+.container img{ 
+    float: right;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 0 0;
+
+}
+.page-final {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(29, 29, 81);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.page-final a{
+    text-decoration: none;
+    color: #000;
+
+}
+span{
+    color: green;
+    font-size: 17px;
+}
